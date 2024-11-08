@@ -1,0 +1,14 @@
+{
+  "name": "expresstutorial",
+  "version": "1.0.0",
+  "description": "express tutorial package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mume",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
