@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.all('/hello', function(req, res){
-   res.send("Hello World!");
+app.get('/:id', function(req, res){
+   res.send('The id you specified is ' + req.params.id);
 });
 app.listen(3000);
